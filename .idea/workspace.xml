@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49571485-80df-4d02-a11d-a6eda781ab24" name="Changes" comment="stage 1&#10;- search bar complete&#10;- top to middle layout 90% complete&#10;- light mode done">
+    <list default="true" id="49571485-80df-4d02-a11d-a6eda781ab24" name="Changes" comment="completed ui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -66,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688162736912</updated>
       <workItem from="1688162738874" duration="12770000" />
-      <workItem from="1688175535509" duration="1488000" />
+      <workItem from="1688175535509" duration="7531000" />
     </task>
     <task id="LOCAL-00001" summary="stage 1&#10;- search bar complete&#10;- top to middle layout 90% complete&#10;- light mode done">
       <created>1688175604733</created>
@@ -75,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688175604733</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="stage 2&#10;- fixed inconsistent styling with search bar">
+      <created>1688177122893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688177122893</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +90,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="stage 1&#10;- search bar complete&#10;- top to middle layout 90% complete&#10;- light mode done" />
-    <option name="LAST_COMMIT_MESSAGE" value="stage 1&#10;- search bar complete&#10;- top to middle layout 90% complete&#10;- light mode done" />
+    <MESSAGE value="stage 2&#10;- fixed inconsistent styling with search bar" />
+    <MESSAGE value="completed ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed ui" />
   </component>
 </project>

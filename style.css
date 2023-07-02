@@ -49,8 +49,48 @@ body {
 #nav-buttons {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 240px;
+    padding: 4px;
+}
+
+#nav-buttons a {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+
+#g-menu-icon-btn {
+    opacity: 0.6;
+}
+
+#g-menu-icon-btn-cnt {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#g-menu-icon-btn-cnt:hover {
+    background: rgba(60,64,67,.08);
+}
+
+/*#g-menu-icon-btn:hover {*/
+/*    background: rgba(196, 191, 191, 0.84);*/
+/*    width: calc(24px * 2);*/
+/*    height: 48px;*/
+/*    border-radius: 48px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    z-index: -1;*/
+/*}*/
+
+#g-menu-icon {
+    width: 24px;
+    height: 24px;
 }
 
 
@@ -89,6 +129,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
     line-height: 28px;
     width: 582px;
     height: 46px;
@@ -103,15 +144,23 @@ body {
     box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
+
+#g-search-icon {
+    width: 24px;
+    display: flex;
+    opacity: 0.4;
+}
+
 #search-bar-text-input {
-    line-height: 32px;
+    line-height: 2.3rem;
+    text-align: start;
     resize: none;
     background: transparent;
     border: none;
     outline: none;
     width: 90%;
     height: 100%;
-    font-size: 13px;
+    font-size: 16px;
     z-index: 3;
     cursor: pointer;
 }
@@ -176,15 +225,50 @@ body {
 #app-footer {
     height: max-content;
     background: var(--footer-bg-lm);
+    font-size: 14px;
 }
 
 #upper-footer {
     height: 48px;
+    color: var(--footer-text-color-t1-lm);
     border-bottom: 1px solid var(--footer-border-bottom-color-t1-lm);
+    padding: 10px;
 }
 
 #lower-footer {
     height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 14px;
+}
+
+.lwf-nav-link {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+
+.lwf-nav-link a {
+    text-decoration: none;
+    color: var(--footer-text-color-t2-lm);
+}
+
+.lwf-nav-link a:hover {
+    text-decoration: underline;
+}
+
+.lwf-nav-link:nth-child(2) {
+    width: 50%;
+    gap: 5px;
+}
+
+#footer-leaf {
+    display: inline-block;
+    margin-left: -100px;
 }
 
 
