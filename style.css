@@ -77,16 +77,6 @@ body {
     background: rgba(60,64,67,.08);
 }
 
-/*#g-menu-icon-btn:hover {*/
-/*    background: rgba(196, 191, 191, 0.84);*/
-/*    width: calc(24px * 2);*/
-/*    height: 48px;*/
-/*    border-radius: 48px;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    z-index: -1;*/
-/*}*/
 
 #g-menu-icon {
     width: 24px;
@@ -99,7 +89,7 @@ body {
 }
 
 #google-logo-cnt {
-    height: 40%;
+    height: 42%;
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -117,23 +107,23 @@ body {
 }
 
 #search-bar-cnt {
-    height: 30%;
+    height: 38.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     gap: 24px
 }
 
 #search-bar {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
     line-height: 28px;
     width: 582px;
     height: 46px;
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 10px;
     background: transparent;
     border: 1px solid var(--g-search-border-color-lm);
     border-radius: 24px;
@@ -144,6 +134,19 @@ body {
     box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
+.search-feature-btn {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    align-items: center;
+    width: 15%;
+}
+
+
+#g-search-icon-cnt {
+    width: 10%;
+}
+
 
 #g-search-icon {
     width: 24px;
@@ -152,7 +155,7 @@ body {
 }
 
 #search-bar-text-input {
-    line-height: 2.3rem;
+    line-height: 2.5rem;
     text-align: start;
     resize: none;
     background: transparent;
@@ -232,7 +235,8 @@ body {
     height: 48px;
     color: var(--footer-text-color-t1-lm);
     border-bottom: 1px solid var(--footer-border-bottom-color-t1-lm);
-    padding: 10px;
+    padding: 15px 30px;
+    font-size: 15px;
 }
 
 #lower-footer {
@@ -249,7 +253,7 @@ body {
     width: max-content;
     align-items: center;
     justify-content: center;
-    gap: 11px;
+    gap: 25px;
 }
 
 .lwf-nav-link a {
